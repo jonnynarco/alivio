@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -105,6 +106,123 @@ header .sign_in button:nth-child(2) {
   line-height: 25px;
   text-align: center;
   color: #FFFFFF;
+}
+
+.section-2 {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 169px;
+}
+.section-2 .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-2 .left p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 157%;
+  color: #424242;
+}
+.section-2 .left h1 {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 157%;
+  color: #01996D;
+}
+.section-2 .right {
+  margin-top: 40px;
+}
+.section-2 .right h4 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #424242;
+}
+
+.bottom {
+  display: flex;
+  margin-top: 52px;
+}
+.bottom .left .number_and_text h2 {
+  margin-top: -45px;
+  margin-left: 88px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 150%;
+  color: #000000;
+}
+.bottom .left p {
+  margin-top: 55px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #424242;
+}
+.bottom .left img {
+  margin-top: 60px;
+}
+
+.center {
+  margin-top: 62px;
+}
+.center .number_and_text h2 {
+  margin-top: -45px;
+  margin-left: 79px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 150%;
+  color: #000000;
+}
+.center p {
+  margin-top: 55px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #424242;
+}
+.center img {
+  margin-top: 37px;
+}
+
+.right {
+  margin-top: 106px;
+}
+.right .number_and_text h2 {
+  margin-top: -45px;
+  margin-left: 124px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 150%;
+  color: #000000;
+}
+.right p {
+  margin-top: 46px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #424242;
+}
+.right img {
+  margin-top: 48px;
 }
 
 /*# sourceMappingURL=style.css.map */
